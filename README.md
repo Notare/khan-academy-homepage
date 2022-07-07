@@ -1,4 +1,4 @@
-# TechCrunch Home Page
+# Khan Academy Home Page
 
 Original: https://i.imgur.com/pWU5ZVs.png
 
