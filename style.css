@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.up-border {
+  border-bottom: 1px solid #D6D8DA;
+}
+
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+header {
+  height: 90px;
+}
+
+nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+form {
+  border-radius: 10px;
+  width: 245px;
+}
+
+input {
+  background: #f0f1f2;
+  width: 100%;
+  border: 0;
+  padding: 15px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+input:focus {
+  outline: 0;
+}
+
+input:hover {
+  background: #e4e3e3;
+}
+
+::placeholder {
+  color: #1865f2;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.fontuser {
+  position: relative;
+}
+
+i {
+  position: absolute;
+  color: #888D93;
+  right: 14px;
+  top: 24px;
+}
+
+.logo {
+  margin-right: 154px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #1865f2;
+  font-weight: bold;
+}
+
+/* MAIN ====================================================== */
+main {
+  display: flex;
+  padding-top: 100px;
+}
+
+main section {
+  flex: 1;
+  margin-left: 20px;
+}
+
+main h1 {
+  font: 70px 'Source Serif Pro', serif;
+  margin-top: 92px;
+  padding-right: 78px;
+}
+
+main p {
+  margin-top: -22px;
+  font-size: 21px;
+  padding-left: 5px;
+  padding-right: 29px;
+  line-height: 38px;
+}
+
+.btns {
+  margin-top: 55px;
+  display: flex;
+  gap: 10px;
+}
+
+.btns a {
+  background: #1865f2;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 15px 20px;
+}
+
+.btns a:hover {
+  outline: 3px solid #1865f2;
+  outline-offset: 1px;
+}
+
+@media all and (max-width: 768px) {
+  * {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-nav {
+    gap: 10px;
+  }
+
+  .logo {
+    margin-top: 10px;
+    margin-right: 12px;
+  }
+
+  ul {
+    gap: 15px;
+  }
+
+  main {
+    padding-top: 200px;
+  }
+
+  main section {
+    margin: 0 10px;
+    padding: 0;
+    align-items: center;
+  }
+  
+  main h1 {
+    margin-top: 10px;
+    padding: 0;
+  }
+
+  main p {
+    padding: 0;
+  }
+
+  .btns {
+    margin: 10px;
+  }
+}
