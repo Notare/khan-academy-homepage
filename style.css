@@ -29,6 +29,7 @@ nav {
   justify-content: space-between;
   font-size: 20px;
   font-weight: bold;
+  padding: 0 10px;
 }
 
 .left-nav {
