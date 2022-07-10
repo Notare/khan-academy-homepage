@@ -38,6 +38,13 @@ nav {
   gap: 70px;
 }
 
+select {
+  background: white;
+  border: 0;
+  color: #1865f2;
+  vertical-align: middle;
+}
+
 form {
   border-radius: 10px;
   width: 245px;
