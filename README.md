@@ -1,9 +1,9 @@
-# Khan Academy Home Page
+# Khan Academy Homepage
 
-Original: https://i.imgur.com/pWU5ZVs.png
+Original: https://i.ibb.co/kG1wQVv/1.png
 
-My attempt: https://notare.github.io/khan-academy-home-page
+My attempt: https://notare.github.io/khan-academy-homepage
 
-Mobile: https://i.imgur.com/BKI2Tyy.png
+Mobile: https://i.ibb.co/m46NWWV/2.png
 
 Tech used: HTML and CSS
